@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog – Beach Road Inland Resort Hotel</title>
+  <meta name="description" content="Latest news, updates, and stories from Beach Road Inland Resort Hotel." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Facebook SDK for embedded posts -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=&autoLogAppEvents=1">
+  </script>
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/beachroad-logo.png" alt="Beach Road Inland Resort Hotel" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#amenities" class="nav-link">Amenities</a></li>
+        <li><a href="index.html#rooms" class="nav-link">Rooms</a></li>
+        <li><a href="index.html#dining" class="nav-link">Dining</a></li>
+        <li><a href="index.html#events" class="nav-link">Events</a></li>
+        <li><a href="blog.html" class="nav-link active">Blog</a></li>
+        <li><a href="index.html#contact" class="nav-link btn-nav">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── PAGE HERO ── -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="hero-tagline">Latest News & Updates</p>
+      <h1 class="hero-title">Our Blog</h1>
+      <p class="hero-subtitle">Stories, updates, and moments from Beach Road Inland Resort Hotel</p>
+    </div>
+  </section>
+
+  <!-- ── BLOG CONTENT ── -->
+  <section class="blog-section section">
+    <div class="container">
+      <div class="blog-layout">
+
+        <!-- ── MAIN POSTS COLUMN ── -->
+        <main class="blog-main">
+
+          <p class="section-label">Facebook Updates</p>
+          <h2 class="section-title" style="text-align:left; margin-bottom: 32px;">From Our Page</h2>
+
+          <!-- Facebook Post Card -->
+          <article class="blog-post-card fb-post-card">
+            <div class="blog-post-meta">
+              <span class="blog-tag">Facebook</span>
+              <span class="blog-date">📘 Posted on our Facebook page</span>
+            </div>
+            <div class="fb-embed-wrap">
+              <div class="fb-post"
+                data-href="https://www.facebook.com/share/p/1CGKYMrYQf/"
+                data-width="auto"
+                data-show-text="true"
+                data-lazy="true">
+              </div>
+              <!-- Fallback link if SDK doesn't load -->
+              <noscript>
+                <a href="https://www.facebook.com/share/p/1CGKYMrYQf/" target="_blank" rel="noopener noreferrer" class="fb-fallback-link">
+                  View this post on Facebook →
+                </a>
+              </noscript>
+            </div>
+            <div class="fb-direct-link">
+              <a href="https://www.facebook.com/share/p/1CGKYMrYQf/" target="_blank" rel="noopener noreferrer" class="btn btn-sm" style="background:#1877f2; color:#fff; border-color:#1877f2;">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                View on Facebook
+              </a>
+            </div>
+          </article>
+
+          <!-- Placeholder cards for future posts -->
+          <div class="blog-coming-soon">
+            <div class="cs-icon">✍️</div>
+            <h3>More posts coming soon!</h3>
+            <p>Follow our Facebook page for the latest resort news, promos, and event announcements.</p>
+            <a href="https://www.facebook.com/beachroadinlanresorthotel" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Follow Us on Facebook
+            </a>
+          </div>
+
+        </main>
+
+        <!-- ── SIDEBAR ── -->
+        <aside class="blog-sidebar">
+
+          <!-- About widget -->
+          <div class="sidebar-widget">
+            <h4 class="sidebar-title">About the Resort</h4>
+            <div class="sidebar-logo">
+              <img src="images/beachroad-logo.png" alt="Beach Road Inland Resort Hotel" style="width:100%; max-width:200px; height:auto; border-radius:8px;" />
+            </div>
+            <p>Beach Road Inland Resort Hotel — your tropical getaway with swimming pool, 10 rooms, function hall, restaurant, and karaoke bar.</p>
+            <a href="index.html#about" class="btn btn-primary btn-sm" style="margin-top:12px;">Learn More</a>
+          </div>
+
+          <!-- Quick Links widget -->
+          <div class="sidebar-widget">
+            <h4 class="sidebar-title">Quick Links</h4>
+            <ul class="sidebar-links">
+              <li><a href="index.html#rooms">🛏️ Our Rooms</a></li>
+              <li><a href="index.html#amenities">🏊 Swimming Pool</a></li>
+              <li><a href="index.html#events">🎉 Function Hall</a></li>
+              <li><a href="index.html#dining">🍽️ Restaurant</a></li>
+              <li><a href="index.html#dining">🎤 Karaoke Bar</a></li>
+              <li><a href="index.html#contact">📋 Book Now</a></li>
+            </ul>
+          </div>
+
+          <!-- Facebook Page widget -->
+          <div class="sidebar-widget">
+            <h4 class="sidebar-title">Follow Us</h4>
+            <a href="https://www.facebook.com/beachroadinlanresorthotel" target="_blank" rel="noopener noreferrer" class="social-btn facebook" style="display:flex; width:100%; justify-content:center;">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Beach Road Inland Resort
+            </a>
+          </div>
+
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="images/beachroad-logo.png" alt="Beach Road Inland Resort Hotel" class="footer-logo-img" />
+          </div>
+          <p>Your perfect tropical retreat — swimming pool, cozy rooms, events venue, dining, and karaoke all in one place.</p>
+          <a href="https://www.facebook.com/beachroadinlanresorthotel" target="_blank" rel="noopener noreferrer" class="footer-social">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#amenities">Amenities</a></li>
+            <li><a href="index.html#rooms">Rooms</a></li>
+            <li><a href="index.html#dining">Restaurant & Bar</a></li>
+            <li><a href="index.html#events">Events</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-amenities">
+          <h4>Amenities</h4>
+          <ul>
+            <li>🏊 Swimming Pool</li>
+            <li>🛏️ 10 Guest Rooms</li>
+            <li>🎉 Function Hall</li>
+            <li>🍽️ Restaurant</li>
+            <li>🎤 Karaoke Bar</li>
+          </ul>
+        </div>
+        <div class="footer-hours">
+          <h4>Operating Hours</h4>
+          <ul>
+            <li><span>Check-in</span><span>2:00 PM</span></li>
+            <li><span>Check-out</span><span>12:00 PM</span></li>
+            <li><span>Restaurant</span><span>6AM – 10PM</span></li>
+            <li><span>Pool</span><span>6AM – 10PM</span></li>
+            <li><span>Karaoke Bar</span><span>4PM – 12AM</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Beach Road Inland Resort Hotel. All rights reserved.</p>
+        <a href="https://www.facebook.com/beachroadinlanresorthotel" target="_blank" rel="noopener noreferrer">facebook.com/beachroadinlanresorthotel</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Blog page: navbar is always scrolled (white) since there's no hero bg
+    document.getElementById('navbar').classList.add('scrolled');
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu   = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+      document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : '';
+    });
+    navMenu.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+  </script>
+</body>
+</html>
