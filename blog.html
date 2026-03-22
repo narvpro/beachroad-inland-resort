@@ -12,12 +12,6 @@
 </head>
 <body>
 
-  <!-- Facebook SDK for embedded posts -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0">
-  </script>
-
   <!-- ── NAVIGATION ── -->
   <nav class="navbar scrolled" id="navbar">
     <div class="nav-container">
@@ -67,18 +61,16 @@
               <span class="blog-date">📘 Posted on our Facebook page</span>
             </div>
             <div class="fb-embed-wrap">
-              <div class="fb-post"
-                data-href="https://www.facebook.com/share/p/1CGKYMrYQf/"
-                data-width="auto"
-                data-show-text="true"
-                data-lazy="true">
-              </div>
-              <!-- Fallback link if SDK doesn't load -->
-              <noscript>
-                <a href="https://www.facebook.com/share/p/1CGKYMrYQf/" target="_blank" rel="noopener noreferrer" class="fb-fallback-link">
-                  View this post on Facebook →
-                </a>
-              </noscript>
+              <iframe
+                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1CGKYMrYQf%2F&show_text=true&width=560&appId"
+                width="560"
+                height="480"
+                style="border:none;overflow:hidden;width:100%;max-width:560px;"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
             </div>
             <div class="fb-direct-link">
               <a href="https://www.facebook.com/share/p/1CGKYMrYQf/" target="_blank" rel="noopener noreferrer" class="btn btn-sm" style="background:#1877f2; color:#fff; border-color:#1877f2;">
