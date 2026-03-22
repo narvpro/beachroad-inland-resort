@@ -1,20 +1,4 @@
-# 1. Login to GitHub (opens browser)
-gh auth login
-
-# 2. Create the repo on GitHub + push all code in one command
-cd /Users/codeorange/Documents/beachroad
-gh repo create beachroad-inland-resort --public \
-  --description "Beach Road Inland Resort Hotel official website" \
-  --source=. --remote=origin --push
-
-# 3. Enable GitHub Pages (free hosting - live in ~1 min)
-gh api repos/$(gh api user --jq .login)/beachroad-inland-resort/pages \
-  --method POST \
-  --field source[branch]=main \
-  --field source[path]=/
-
-# 4. Get your live website URL
-gh api repos/$(gh api user --jq .login)/beachroad-inland-resort/pages --jq .html_url<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
