@@ -250,7 +250,7 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 400; lin
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&h=1080&fit=crop&q=85&auto=format');
+  background-image: url('images/pool.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -409,7 +409,7 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 400; lin
   width: 75%;
   height: 70%;
   top: 0; left: 0;
-  background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop&q=80&auto=format');
+  background-image: url('images/client_happy_thoughts.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -417,7 +417,7 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 400; lin
   width: 60%;
   height: 55%;
   bottom: 0; right: 0;
-  background-image: url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=700&h=500&fit=crop&q=80&auto=format');
+  background-image: url('images/family_enjoying.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -586,17 +586,17 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 400; lin
   background-position: center;
 }
 .room-standard {
-  background-image: url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=400&fit=crop&q=80&auto=format');
+  background-image: url('images/two_queenbed.jpg');
   background-size: cover;
   background-position: center;
 }
 .room-deluxe {
-  background-image: url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=400&fit=crop&q=80&auto=format');
+  background-image: url('images/two queen bed.jpg');
   background-size: cover;
   background-position: center;
 }
 .room-family {
-  background-image: url('https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&h=400&fit=crop&q=80&auto=format');
+  background-image: url('images/room prices.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -681,12 +681,12 @@ h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; font-weight: 400; lin
 }
 .d-img-1 {
   grid-row: span 2;
-  background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&h=700&fit=crop&q=80&auto=format');
+  background-image: url('images/restaurant.jpg');
   background-size: cover;
   background-position: center;
 }
 .d-img-2 {
-  background-image: url('https://images.unsplash.com/photo-1516997121675-4c2d1684aa3e?w=600&h=350&fit=crop&q=80&auto=format');
+  background-image: url('images/client_having_fun.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -1002,7 +1002,7 @@ textarea { resize: vertical; min-height: 100px; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&auto=format&fit=crop&q=60') center/cover no-repeat;
+  background: url('images/function_hall.jpg') center/cover no-repeat;
   opacity: 0.22;
 }
 .page-hero-overlay {
